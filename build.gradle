@@ -1,0 +1,15 @@
+plugins {
+    id 'application'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'junit:junit:4.12'
+}
+
+application {
+    mainClassName = 'com.linuxacademy.ccdak.kafkaSimpleConsumer.Main'
+}
